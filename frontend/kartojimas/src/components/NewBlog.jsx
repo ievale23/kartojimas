@@ -1,4 +1,4 @@
-import { Form } from "react-router-dom";
+import { Form, Button } from "react-bootstrap";
 
 export const NewBlog = () => {
   return (
@@ -15,6 +15,7 @@ export const NewBlog = () => {
         <Form.Label>Post Text</Form.Label>
         <Form.Control as="textarea" rows={3} />
       </Form.Group>
+      <Button>Post</Button>
     </Form>
   );
 };
